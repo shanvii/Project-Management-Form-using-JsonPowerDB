@@ -1,26 +1,35 @@
 # Project-Management-Form-using-JsonPowerDB
 
-**Title of the Project:**
-Project Management Form 
-That stores data in *PROJECT-TABLE* relation of *COLLEGE-DB* database  
-*Input Fields:* {Project-ID, Project-Name, Assigned-To, Assignment-Date, Deadline}  
-*Primary key:* Project ID
+<h2>Title of the Project:</h2>
+Project Management Form
 
+</br>
 
-**Description:**
+That stores data in **PROJECT-TABLE** relation of **COLLEGE-DB** database  
+**Input Fields:** {Project-ID, Project-Name, Assigned-To, Assignment-Date, Deadline}  
+**Primary key:** Project ID
+
+</br>
+
+<h2>Description:</h2>
+
 To create a project management form that stores data in the "PROJECT-TABLE" relation of the "COLLEGE-DB" database, with the following input fields:
 
-Input Fields:
+</br>
+
+**Input Fields:**
+
 * Project ID (modified as primary key)
 * Project Name
 * Assigned-To
 * Assignment-Date
 * Deadline
 
-Primary key: Project ID
+</br>
 
+<h2>Benefits of using JsonPowerDB:</h2>
+</br>
 
-**Benefits of using JsonPowerDB:**
 * Simple and Easy-to-Use: JsonPowerDB follows a simple and intuitive schema-less model, allowing developers to store and retrieve data in a JSON-like format. This makes it easy to work with, especially for developers familiar with JSON.
 * High Performance: JsonPowerDB is designed to deliver high performance with its patented indexing algorithm called PowerIndex. It provides faster response times for read and write operations, making it suitable for real-time applications and high-traffic scenarios.
 * Inbuilt Search Engine: JsonPowerDB includes a built-in search engine that supports various search operations on the data stored in the database. This eliminates the need for external search engines, reducing complexity and improving efficiency.
@@ -32,6 +41,10 @@ Primary key: Project ID
 * NoSQL and SQL Support: JsonPowerDB combines the benefits of both NoSQL and SQL databases. It offers the simplicity and flexibility of NoSQL for unstructured data, while also providing SQL-like query capabilities for structured data retrieval, making it suitable for a wide range of applications.
 * Developer-friendly Environment: JsonPowerDB provides a developer-friendly environment with features like an embedded web-based development platform, interactive documentation, and code generation tools. This helps developers rapidly prototype, test, and deploy applications using JsonPowerDB.
 
+</br>
 
-**Release History (release of your JsonPowerDB related code on Github)**
+<h2>Release History (release of your JsonPowerDB related code on Github)</h2>
+
 First uploaded on 25-06-2023
+</br>
+by https://github.com/shanvii
