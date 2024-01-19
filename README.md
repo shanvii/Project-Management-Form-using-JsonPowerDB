@@ -11,7 +11,7 @@ That stores data in **PROJECT-TABLE** relation of **COLLEGE-DB** database
 **Primary key:** Project ID
 
 </br>
-</br>
+
 <h2>Description:</h2>
 
 To create a project management form that stores data in the "PROJECT-TABLE" relation of the "COLLEGE-DB" database, with the following input fields:
@@ -28,9 +28,7 @@ To create a project management form that stores data in the "PROJECT-TABLE" rela
 
 </br>
 
-**Primary key:** Project ID
-</br>
-</br>
+
 <h2>Benefits of using JsonPowerDB:</h2>
 </br>
 
@@ -46,7 +44,10 @@ To create a project management form that stores data in the "PROJECT-TABLE" rela
 * Developer-friendly Environment: JsonPowerDB provides a developer-friendly environment with features like an embedded web-based development platform, interactive documentation, and code generation tools. This helps developers rapidly prototype, test, and deploy applications using JsonPowerDB.
 
 </br>
-</br>
+
+
 <h2>Release History (release of your JsonPowerDB related code on Github)</h2>
+
 First uploaded on 25-06-2023
-</br>⭐️ by https://github.com/shanvii
+</br>
+by https://github.com/shanvii
