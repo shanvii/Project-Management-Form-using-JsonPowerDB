@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+      <title>Project Management Form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  
+  <body>
+    <div class="container">
+        <div class="page-header text-center">
+            <h1><u>Project Management Form</u></h1>
+        </div>
+        <form id="proform" method="get">
+            <div class="form-group">
+                <label>Project ID: </label>
+                <input 
+                    type="text" 
+                    id="proid" 
+                    placeholder="Enter Project ID"
+                    class="form-control" 
+                    onchange="getPro()">
+            </div>
+            <div class="form-group">
+                <label>Project Name: </label>
+                <input 
+                    type="text" 
+                    id="proname" 
+                    placeholder="Enter Project Name"
+                    class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Assigned-To: </label>
+                <input 
+                    type="text" 
+                    id="prosign" 
+                    placeholder="Enter Assigned To"
+                    class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Assignment-Date: </label>
+                <input 
+                    type="date" 
+                    id="prodate" 
+                    placeholder="Enter Assignment Date"
+                    class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Deadline: </label>
+                <input 
+                    type="date" 
+                    id="prodead" 
+                    placeholder="Enter Project Deadline"
+                    class="form-control">
+            </div>
+            
+            <div class="form-group text-center">
+                <button 
+                    type="button" 
+                    class="btn btn-lg btn-primary" 
+                    id="save" 
+                    onclick="saveData()" 
+                    disabled>
+                    [Save]
+                </button>
+                <button 
+                    type="button" 
+                    class="btn btn-lg btn-primary" 
+                    id="change" 
+                    onclick="changeData()" 
+                    disabled>
+                    [Update]
+                </button>
+                <button 
+                    type="button" 
+                    class="btn btn-lg btn-primary" 
+                    id="reset" 
+                    onclick="resetForm()" 
+                    disabled>
+                    [Reset]
+                </button>
+                
+            </div>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="http://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    
+  </body>
+</html>
